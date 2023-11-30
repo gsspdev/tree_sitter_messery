@@ -1,6 +1,6 @@
 fn main() {
 
-use tree_sitter::{Parser, Language};
+use tree_sitter::{Parser};
 
 let mut parser = Parser::new();
 

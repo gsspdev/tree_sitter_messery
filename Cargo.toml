@@ -17,9 +17,9 @@ debug = true
 [package]
 edition = "2021"
 rust-version = "1.69.0"
-name = "fm_mod_synth"
-version = "0.1.5"
-description = "A simple package for fm synthesis"
+name = "tree_sitter_messery"
+version = "0.1.0"
+description = "just some messsing around"
 readme = "README.md"
 license = "MIT"
 
@@ -27,11 +27,6 @@ license = "MIT"
 cc="*"
 
 [dependencies]
-dioxus = "0.4.0"
-dioxus-web = "0.4.0"
 tree-sitter = "0.20.10"
 tree-sitter-rust="0.20.3"
-
-[dependencies.cpal]
-version = "0.13"
 
